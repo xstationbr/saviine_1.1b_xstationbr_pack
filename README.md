@@ -1,5 +1,26 @@
 # saviine_1.1b_xstationbr_pack
+Corrigido o erro de dump de jogos que compartilhavam o mesmo savedata (thx @ n0rbyt3)     
 Tutorial em Inglês:
-[Saviine: Injecting Saves] 
 
-You are reading this because you want to inject a loadiine save into a game playable via the Wii U main menu. Whether you actually bought the game, or installed it via the Brazilian method, this is what you want to be reading. Step 1) Download, and extract the latest Saviine. Step 2) Copy the 'wiiu' folder to the root of your SD card. When it comes to Saviine, Your apps folder should look like this: SD:/wiiu/apps/saviine/saviine.elf SD:/wiiu/apps/saviine/icon.png SD:/wiiu/apps/saviine/meta.xml Step 3) Run 'dump.bat' in the server folder where you extracted Saviine too. This will create a saviine_root folder. Close 'dump.bat'. Step 4) In saviine_root, create a folder and call it, 'inject'. Step 5) Copy the loadiine saves (you would like to inject) from this directory in the SD card: SD:\wiiu\saves Into the 'inject' folder we made in the last step, Step 4 Step 6) Rename the loadiine save folder, which looks like, 'Paper Mario Color Splash [XXXXXX]' to the games Title ID. NOTE: These title keys are against the rules to share/ post/ link to on this subreddit. You can find them by using google. In this case, the folder wants the Title ID hyphenated. It should something like, 'XXXXXXXX-XXXXXXXX' Step 7) There are 2 folders in this save folder. Rename them as such: c - common u - 80000001 Step 8) Find your computer's IPv4 address. Remember this address. It should look like this: 192.168.X.XXX NOTE: If you're using one of my self-hosting methods, use the IPv4 that connectify supplies with the wireless signal you created. Step 9) Run 'inject.bat' in the server folder where you extracted Saviine too. Step 10) Put the SD card into the SD Card slot in your Wii U. Step 11) Play the game you want to inject your save to until you can make a save. Step 12) Get to the homebrew launcher through your preferred method and launch Saviine. Step 13) Set your IPv4 address you found in Step 8. Step 14) Press X to install Saviine and go back to the Wii U menu. Step 15) Launch the game you want to inject the game save into. Step 16) Look at your PC. The inject.bat that's been running since Step 9 should have given you a prompt with 2 drop down boxes. On the top drop down, select '80000001'. In the second drop down, select 'Inject. Step 17) inject.bat should start working, and finish within 30 seconds. When the game starts: you'll see that the save injected successfully.  
+[Saviine: Injecting Saves]  
+ You are reading this because you want to inject a loadiine save into a game playable via the Wii U main menu. Whether you actually bought the game, or installed it via the Brazilian method, this is what you want to be reading. 
+
+Step 1) Download, and extract the latest Saviine. 
+Step 2) Copy the 'wiiu' folder to the root of your SD card. 
+When it comes to Saviine, Your apps folder should look like this: SD:/wiiu/apps/saviine/saviine.elf SD:/wiiu/apps/saviine/icon.png SD:/wiiu/apps/saviine/meta.xml 
+Step 3) Run 'dump.bat' in the server folder where you extracted Saviine too. This will create a saviine_root folder. Close 'dump.bat'. Step 4) In saviine_root, create a folder and call it, 'inject'. 
+Step 5) Copy the loadiine saves (you would like to inject) from this directory in the SD card: SD:\wiiu\saves Into the 'inject' folder we made in the last step, Step 4 
+Step 6) Rename the loadiine save folder, which looks like, 'Paper Mario Color Splash [XXXXXX]' to the games Title ID. 
+*NOTE: These title keys are against the rules to share/ post/ link to on this subreddit. You can find them by using google. In this case, the folder wants the Title ID hyphenated. It should something like, 'XXXXXXXX-XXXXXXXX'*
+Step 7) There are 2 folders in this save folder. Rename them as such: c - common u - 80000001 
+Step 8) Find your computer's IPv4 address. Remember this address. It should look like this: 192.168.X.XXX 
+*NOTE: If you're using one of my self-hosting methods, use the IPv4 that connectify supplies with the wireless signal you created.* 
+Step 9) Run 'inject.bat' in the server folder where you extracted Saviine too. 
+Step 10) Put the SD card into the SD Card slot in your Wii U. 
+Step 11) Play the game you want to inject your save to until you can make a save. 
+Step 12) Get to the homebrew launcher through your preferred method and launch Saviine. 
+Step 13) Set your IPv4 address you found in Step 8. 
+Step 14) Press X to install Saviine and go back to the Wii U menu. 
+Step 15) Launch the game you want to inject the game save into. 
+Step 16) Look at your PC. The inject.bat that's been running since Step 9 should have given you a prompt with 2 drop down boxes. On the top drop down, select '80000001'. In the second drop down, select 'Inject. 
+Step 17) inject.bat should start working, and finish within 30 seconds. When the game starts: you'll see that the save injected successfully.  
